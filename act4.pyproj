@@ -1,0 +1,18 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <ProjectGuid>3f5f3543-d309-406d-95d0-8d7bad4de665</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>act4.py</StartupFile>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>act4</Name>
+    <RootNamespace>act4</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="act4.py" />
+    <Compile Include="server.py" />
+    <Compile Include="test_server.py" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
